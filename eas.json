@@ -1,0 +1,22 @@
+{
+  "builds": {
+    "android": {
+      "release": {
+        "workflow": "managed"
+      },
+      "simulator": {
+        "workflow": "managed",
+        "buildType": "apk"
+      }
+    },
+    "ios": {
+      "release": {
+        "workflow": "managed"
+      },
+      "simulator": {
+        "workflow": "managed",
+        "distribution": "simulator"
+      }
+    }
+  }
+}
